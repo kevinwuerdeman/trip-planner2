@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Supermercado+One" rel="stylesheet">
+    <script src="./bundle.js" defer></script>
+  </head>
+  <body>
+    <header class="flex-container">
+      <h1>Trip Planner</h1>
+      <nav class="flex-container">
+        <p class="nav-item">About</p>
+        <p class="nav-item">Contact</p>
+      </nav>
+    </header>
+    <div id="app">
+      <div id="map"></div>
+      <div id="side-panels">
+        <div class="panel">
+          <h2>Hotels</h2>
+          <select class="attraction-menu">
+            <option>attraction item</option>
+          </select>
+          <h2>Restaurants</h2>
+          <select class="attraction-menu">
+            <option>attraction item</option>
+          </select>
+          <h2>Activities</h2>
+          <select class="attraction-menu">
+            <option>attraction item</option>
+          </select>
+        </div>
+        <div class="panel">
+          <h2>My Hotel</h2>
+          <ul class="itinerary-list">
+            <li>hotel</li>
+          </ul>
+          <h2>My Restaurants</h2>
+          <ul class="itinerary-list">
+            <li>restaurant</li>
+            <li>restaurant</li>
+            <li>restaurant</li>
+          </ul>
+          <h2>My Activities</h2>
+          <ul class="itinerary-list">
+            <li>activity</li>
+            <li>activity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
